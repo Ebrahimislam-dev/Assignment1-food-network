@@ -1,0 +1,114 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/*------------------------nav bar-----------------------------*/
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+}
+.nav-list ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    
+}
+.nav-list ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+.nav-list ul li:hover::after{
+    width: 100%;
+}
+
+/*-------------------------sections---------------------------------*/
+.flexiable{
+    display: flex;
+    
+}
+.half-section{
+    width: 50%;
+    
+}
+.half-section p{
+    text-align: justify;
+}
+.half-section img {
+    width: 100%;
+    height: auto;
+}
+
+.half-section .button{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px 30px;
+   
+    border-radius: 25px;
+    background-image:linear-gradient(to right, #c96666, #f0cb35);
+}
+/*-------------------section1----------------------------*/
+
+.section1 img{
+  height: 90%;
+}
+.section1 .discription{
+    margin-top: 7%;
+    margin-right:4%;
+    margin-left:7%;
+}
+
+.section1 h1{
+    font-size: 45px;
+}
+.section1 .name-color{
+    color: rgb(235, 95, 1);
+}
+.section1 p{
+    text-align: justify;
+}
+/*-------------------section2--------------------------*/
+
+.section2{
+    background-image:    url(images/section2bg.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.half-section img{
+    width: 80%;
+    margin-bottom:200px ;
+}
+.section2 .discription{
+    margin-top: 25%;
+    margin-right: 7%;
+}
+.section2 h1{
+   font-size: 35px;
+}
+/*-------------Recipie section -----------------------*/
+.recipies{
+    text-align: center;
+}
+.recipies .half-section{
+    display: flex;
+    
+    flex-direction: row;
+    margin: 5%;
+    border: 2px solid;
+}
+.recipie-item{
+    margin: 0;
+padding: 0;
+}
